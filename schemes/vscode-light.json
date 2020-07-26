@@ -1,0 +1,22 @@
+{
+    "name": "VS Code Light",
+    "foreground": "#333333",
+    "background": "#FFFFFF",
+    "cursorColor": "#333333",
+    "black": "#000000",
+    "red": "#CD3131",
+    "green": "#00BC00",
+    "yellow": "#949800",
+    "blue": "#0451A5",
+    "purple": "#BC05BC",
+    "cyan": "#0598BC",
+    "white": "#666666",
+    "brightBlack": "#555555",
+    "brightRed": "#CD3131",
+    "brightGreen": "#14CE14",
+    "brightYellow": "#B5BA00",
+    "brightBlue": "#0451A5",
+    "brightPurple": "#BC05BC",
+    "brightCyan": "#0598BC",
+    "brightWhite": "#A5A5A5"
+}

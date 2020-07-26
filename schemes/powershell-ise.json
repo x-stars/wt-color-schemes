@@ -1,0 +1,22 @@
+{
+    "name": "PowerShell ISE",
+    "foreground": "#F5F5F5",
+    "background": "#012456",
+    "cursorColor": "#F5F5F5",
+    "black": "#000711",
+    "red": "#6F0711",
+    "green": "#005711",
+    "yellow": "#888F11",
+    "blue": "#000780",
+    "purple": "#6F0780",
+    "cyan": "#007680",
+    "white": "#878E98",
+    "brightBlack": "#666D77",
+    "brightRed": "#CC0711",
+    "brightGreen": "#00D311",
+    "brightYellow": "#CCD311",
+    "brightBlue": "#0007DD",
+    "brightPurple": "#CC07DD",
+    "brightCyan": "#00D3DD",
+    "brightWhite": "#CCD3DD"
+}

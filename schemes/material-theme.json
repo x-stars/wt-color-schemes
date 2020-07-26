@@ -1,0 +1,22 @@
+{
+    "name": "Material Theme",
+    "foreground": "#FFFFFF",
+    "background": "#263238",
+    "cursorColor": "#FFFFFF",
+    "black": "#000000",
+    "red": "#FF5370",
+    "green": "#C3E88D",
+    "yellow": "#FFCB6B",
+    "blue": "#82AAFF",
+    "purple": "#C792EA",
+    "cyan": "#89DDFF",
+    "white": "#FFFFFF",
+    "brightBlack": "#546E7A",
+    "brightRed": "#FF5370",
+    "brightGreen": "#C3E88D",
+    "brightYellow": "#FFCB6B",
+    "brightBlue": "#82AAFF",
+    "brightPurple": "#C792EA",
+    "brightCyan": "#89DDFF",
+    "brightWhite": "#FFFFFF"
+}

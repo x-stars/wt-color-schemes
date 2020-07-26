@@ -1,0 +1,22 @@
+{
+    "name": "Abyss",
+    "foreground": "#6688CC",
+    "background": "#000C18",
+    "cursorColor": "#6688CC",
+    "black": "#111111",
+    "red": "#FF9DA4",
+    "green": "#D1F1A9",
+    "yellow": "#FFEEAD",
+    "blue": "#BBDAFF",
+    "purple": "#EBBBFF",
+    "cyan": "#99FFFF",
+    "white": "#CCCCCC",
+    "brightBlack": "#333333",
+    "brightRed": "#FF7882",
+    "brightGreen": "#B8F171",
+    "brightYellow": "#FFE580",
+    "brightBlue": "#80BAFF",
+    "brightPurple": "#D778FF",
+    "brightCyan": "#78FFFF",
+    "brightWhite": "#FFFFFF"
+}
