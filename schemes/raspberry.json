@@ -1,0 +1,22 @@
+{
+    "name": "Raspberry",
+    "foreground": "#FFFFFD",
+    "background": "#3C0315",
+    "cursorColor": "#FFFFFD",
+    "black": "#282A2E",
+    "red": "#BD0940",
+    "green": "#76AB23",
+    "yellow": "#E0DE48",
+    "blue": "#0170C5",
+    "purple": "#7D498F",
+    "cyan": "#3F8D83",
+    "white": "#FFFFFD",
+    "brightBlack": "#676E7A",
+    "brightRed": "#BD6D85",
+    "brightGreen": "#B5D680",
+    "brightYellow": "#FFFD76",
+    "brightBlue": "#80C8FF",
+    "brightPurple": "#AC79BB",
+    "brightCyan": "#8ABEB7",
+    "brightWhite": "#FFFFFD"
+}
