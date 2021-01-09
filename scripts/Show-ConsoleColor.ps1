@@ -5,29 +5,25 @@
 
 [CmdletBinding()]
 [OutputType([void])]
-param ()
+param
+(
+)
 
-@(
-    "Black"
-    "DarkBlue"
-    "DarkGreen"
-    "DarkCyan"
-    "DarkRed"
-    "DarkMagenta"
-    "DarkYellow"
-    "Gray"
-    "DarkGray"
-    "Blue"
-    "Green"
-    "Cyan"
-    "Red"
-    "Magenta"
-    "Yellow"
-    "White"
-) |
-ForEach-Object `
+$DarkColors = @(
+    "Black", "DarkBlue", "DarkGreen", "DarkCyan",
+    "DarkRed", "DarkMagenta", "DarkYellow", "Gray")
+$LightColors = @(
+    "DarkGray", "Blue", "Green", "Cyan",
+    "Red", "Magenta", "Yellow", "White")
+$Length = ($DarkColors.Length + $LightColors.Length) / 2
+
+foreach ($Index in 0..$($Length - 1))
 {
-    Write-Host "●$_".PadRight(16) -ForegroundColor $_ -NoNewline
-    Write-Host "●$_".PadRight(16) -BackgroundColor $_ -NoNewline
+    $DarkColor = $DarkColors[$Index]
+    $LightColor = $LightColors[$Index]
+    Write-Host "●$DarkColor".PadRight(16) -ForegroundColor $DarkColor -NoNewline
+    Write-Host "●$LightColor".PadRight(16) -ForegroundColor $LightColor -NoNewline
+    Write-Host "●$DarkColor".PadRight(16) -BackgroundColor $DarkColor -NoNewline
+    Write-Host "●$LightColor".PadRight(16) -BackgroundColor $LightColor -NoNewline
     Write-Host
 }
