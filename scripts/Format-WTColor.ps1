@@ -22,9 +22,9 @@ param
 
 process
 {
-    foreach ($thisPath in $Path)
+    foreach ($FilePath in $Path)
     {
-        $Color = Get-Content $thisPath | ConvertFrom-Json
+        $Color = Get-Content $FilePath | ConvertFrom-Json
         $Color = [PSCustomObject]@{
             name         = $Color.name
             foreground   = $Color.foreground
@@ -52,11 +52,11 @@ process
         if (-not $Color.cursorColor) { $Color.cursorColor = $Color.foreground }
         foreach ($Property in $Color.PSObject.Properties.Name)
         {
-            if ($Color.$property -is [string] -and $Color.$property.StartsWith('#'))
+            if ($Color.$Property -is [string] -and $Color.$Property.StartsWith('#'))
             {
-                $Color.$property = $Color.$property.ToUpper()
+                $Color.$Property = $Color.$Property.ToUpper()
             }
         }
-        $($Color | ConvertTo-Json).Replace(":  ", ": ") | Out-File $thisPath -Encoding default
+        $($Color | ConvertTo-Json).Replace(":  ", ": ") | Out-File $FilePath -Encoding default
     }
 }
