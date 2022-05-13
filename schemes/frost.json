@@ -1,0 +1,22 @@
+{
+    "name": "Frost",
+    "foreground": "#000000",
+    "background": "#FFFFFF",
+    "cursorColor": "#000000",
+    "black": "#3C5712",
+    "red": "#8D0C0C",
+    "green": "#6AAE08",
+    "yellow": "#991070",
+    "blue": "#17B2FF",
+    "purple": "#991070",
+    "cyan": "#3C96A6",
+    "white": "#6E386E",
+    "brightBlack": "#749B36",
+    "brightRed": "#F49B36",
+    "brightGreen": "#89AF50",
+    "brightYellow": "#991070",
+    "brightBlue": "#27B2F6",
+    "brightPurple": "#F2A20A",
+    "brightCyan": "#13A8C0",
+    "brightWhite": "#741274"
+}
