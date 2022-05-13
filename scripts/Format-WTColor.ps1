@@ -57,6 +57,8 @@ process
                 $Color.$Property = $Color.$Property.ToUpper()
             }
         }
-        $($Color | ConvertTo-Json).Replace(":  ", ": ") | Out-File $FilePath -Encoding default
+        $ColorJson = $Color | ConvertTo-Json
+        $ColorJson = $ColorJson.Replace(":  ", ": ").Replace('  "', '    "')
+        $ColorJson | Out-File $FilePath -Encoding default
     }
 }
